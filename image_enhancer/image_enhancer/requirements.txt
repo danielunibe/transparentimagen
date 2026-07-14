@@ -1,0 +1,14 @@
+# Image Enhancer - Unova Games Studio
+# Runtime dependencies for Python 3.10 on Windows.
+#
+# rembg 2.0.75+ requires Python 3.11+, so this project pins the last
+# verified Python 3.10-compatible release.
+
+rembg[gpu]==2.0.69
+Pillow>=10.0.0,<13.0.0
+numpy>=1.24.0,<3.0.0
+onnxruntime-gpu==1.23.2
+nvidia-cuda-runtime-cu12==12.9.79
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cudnn-cu12==9.23.0.39
+nvidia-cufft-cu12==11.4.1.4

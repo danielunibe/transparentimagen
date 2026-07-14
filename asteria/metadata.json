@@ -1,0 +1,6 @@
+{
+  "name": "Asteria",
+  "description": "Asteria is a local visual AI workspace for exploring folders, organizing images, and editing assets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

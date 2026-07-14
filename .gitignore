@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv_pyiqa/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# Local app state
+*.log
+*.tmp
+
+# Project-generated backups
+_codex_backup_*/
+_codex_backup_phase*/
+_codex_backup_ui*/
+_codex_backup_new_interface_*/
+_codex_backup_sticky_process_ui_*/
+_codex_backup_modular_plan_*/
+_codex_backup_pipeline_*/
+_codex_backup_realesrgan_despill_*/
+_codex_backup_birefnet_feedback_*/
+_codex_backup_edge_refiner_*/
+_codex_backup_lupa_phase1_*/
+_codex_backup_u2net_default_*/
+
+# Packaged app internals
+image_enhancer/image_enhancer/build/
+image_enhancer/image_enhancer/dist/
+image_enhancer/image_enhancer/.venv/
+image_enhancer/image_enhancer/.venv_pyiqa/
