@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tertiary: #ffffff;
+  --color-surface-container: #1e2020;
+  --color-on-surface: #e2e2e2;
+  --color-tertiary-container: #00fbfc;
+  --color-tertiary-fixed-dim: #00dcdd;
+  --color-surface: #121414;
+  --color-on-background: #e2e2e2;
+  --color-surface-variant: #333535;
+  --color-inverse-surface: #e2e2e2;
+  --color-on-primary-container: #716500;
+  --color-surface-dim: #121414;
+  --color-surface-bright: #38393a;
+  --color-primary-fixed-dim: #dec800;
+  --color-on-error-container: #ffdad6;
+  --color-secondary-fixed: #6dfe9c;
+  --color-surface-container-highest: #333535;
+  --color-error: #ffb4ab;
+  --color-surface-container-low: #1a1c1c;
+  --color-outline: #979177;
+  --color-on-secondary-fixed-variant: #005227;
+  --color-on-tertiary: #003737;
+  --color-inverse-on-surface: #2f3131;
+  --color-on-secondary-fixed: #00210c;
+  --color-tertiary-fixed: #00fbfc;
+  --color-on-tertiary-container: #007071;
+  --color-primary-fixed: #fde400;
+  --color-surface-container-lowest: #0c0f0f;
+  --color-on-surface-variant: #cdc7aa;
+  --color-on-primary-fixed-variant: #504700;
+  --color-primary-container: #fde400;
+  --color-secondary-fixed-dim: #4de082;
+  --color-on-secondary-container: #003e1c;
+  --color-outline-variant: #4b4731;
+  --color-on-secondary: #003919;
+  --color-secondary: #4de082;
+  --color-background: #121414;
+  --color-on-tertiary-fixed: #002020;
+  --color-on-primary: #373100;
+  --color-on-tertiary-fixed-variant: #004f50;
+  --color-inverse-primary: #6a5f00;
+  --color-primary: #ffffff;
+  --color-surface-tint: #dec800;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-primary-fixed: #201c00;
+  --color-surface-container-high: #282a2b;
+  --color-secondary-container: #00b55d;
+
+  --spacing-unit: 4px;
+  --spacing-margin-desktop: 32px;
+  --spacing-sm: 8px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+  --spacing-md: 16px;
+  --spacing-xs: 4px;
+  --spacing-margin-mobile: 16px;
+  --spacing-gutter: 16px;
+
+  --font-display-lg: var(--font-hanken), sans-serif;
+  --font-body-sm: var(--font-hanken), sans-serif;
+  --font-headline-md: var(--font-hanken), sans-serif;
+  --font-label-caps: var(--font-jetbrains), monospace;
+  --font-body-lg: var(--font-hanken), sans-serif;
+  --font-headline-md-mobile: var(--font-hanken), sans-serif;
+  --font-headline-sm: var(--font-hanken), sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-variant);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-outline-variant);
+}

@@ -1,0 +1,6 @@
+# Optional Real-ESRGAN adapter dependencies for manual local installation.
+# Do not install automatically from the app.
+# Keep CPU-first unless a future approved phase defines a separate GPU policy.
+
+numpy>=1.26,<3
+onnxruntime==1.23.2

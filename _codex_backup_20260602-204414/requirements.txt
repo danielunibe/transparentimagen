@@ -1,0 +1,5 @@
+# Image Enhancer — Unova Games Studio
+# Instalar con: pip install -r requirements.txt
+
+rembg>=2.0.50          # AI background removal (descarga modelos ~170MB)
+Pillow>=10.0.0         # Procesamiento de imágenes
